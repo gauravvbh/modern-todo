@@ -1,0 +1,29 @@
+#inp {
+  height: 50px;
+  width: 400px;
+  border-radius: 15px;
+  overflow: hidden;
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  transform: translateX(-50%);
+}
+input {
+  width: 80%;
+  height: 100%;
+  border: none;
+  padding: 10px;
+}
+button {
+  width: 20%;
+  height: 100%;
+  border: none;
+  background: blueviolet;
+  color: aliceblue;
+  cursor: pointer;
+  font-weight: 600;
+  padding: 10px;
+}
+input:focus {
+  outline: none;
+}

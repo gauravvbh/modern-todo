@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  overflow: hidden;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+::selection {
+  color: rgb(0, 42, 255);
+}
